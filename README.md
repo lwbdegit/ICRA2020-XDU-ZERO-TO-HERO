@@ -1,18 +1,18 @@
 # Project Title
 
-DEMO-ICRA2020&DJI RoboMaster 
+Navigation DEMO-ICRA2020&DJI RoboMaster 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This is the demo of navigation. 
 
 ### Prerequisites
 
-Ubuntu18.04 
-ROS
+Ubuntu18.04 &
+ROS.
 
 ```
-Give examples
+sudo apt-get install ros-melodic-desktop-full
 ```
 
 ### Installing
@@ -24,39 +24,31 @@ clone from github
 ```
 sudo mkdir RM_demo
 cd RM_demo
-sudo git clone https://github.com/lwbdegit/ICRA2020-XDU-ZERO-TO-HERO
+sudo git clone https://github.com/lwbdegit/Navigation-Demo-of-ICRA2020-XDU-ZERO-TO-HERO.git
 ```
 
-And repeat
+Install dependencies
 
 ```
 sudo  apt-get -f install
-until finished
+
 ```
 
-## Running the tests
+## Running the Demo
 
-This is the demo of navigation. The operation method is as follows.
+The operation method is as follows.
 
-### Break down into end to end tests
+### running the launch file
 
 Explain what these tests test and why
 
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+roslaunch xxx
 ```
 
 ## Video of the demo
 
-www.
+www.xxxx
 
 
 ## Authors
